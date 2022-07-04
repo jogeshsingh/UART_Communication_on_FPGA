@@ -9,5 +9,6 @@ UART(UNIVERSAL ASYNCHRONOUS RECEIVER TRANSMITTER ) . Reciever Module (UART-PC-FP
 ![IMG-20220702-WA0001](https://user-images.githubusercontent.com/98607828/177001319-80c1a7f6-bf03-488a-9b40-53e23cfaee78.jpg)
 
 # Simulation_Results
-
 ![UART](https://user-images.githubusercontent.com/98607828/176993509-622a32d6-ad4a-4c26-bf4b-ee6567fb56b9.jpg)
+
+![UART_TX_RX](https://user-images.githubusercontent.com/98607828/177177111-dd3b0d73-6b3d-47ae-ac61-cbd63be6a423.jpg)
