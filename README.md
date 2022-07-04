@@ -1,4 +1,4 @@
-# UART_Communication_Via_PC_To_FPGA
+# UART_Communication_on_FPGA
 UART(UNIVERSAL ASYNCHRONOUS RECEIVER TRANSMITTER ) . Reciever Module (UART-PC-FPGA)
 # Elaborated_Design
 ![RTL_DESIGN_UART_RECEIVER](https://user-images.githubusercontent.com/98607828/176993481-1c058aa8-996b-4594-8444-21dda3417825.jpg)
