@@ -22,12 +22,6 @@
     /////testebench module for uart receiever ///
 module UART_Rx_tb();
 
-  // Testbench uses a 100 MHz clock (NEXYS ARTIX-7)
-  // 115200 baud UART
-  // 25000000 / 115200 = 868 Clocks Per Bit.
-  parameter CLK_PERIOD = 10;
-  parameter c_CLKS_PER_BIT    = 868;
-  parameter PERIOD      = 8600;
   
   reg Clk = 0;
   reg RX_Serial = 1;
@@ -92,32 +86,18 @@ Top_UART_Rx DUT(
   
   initial
     begin
-      // Send a command to the UART (exercise Rx)
       @(posedge Clk);
       UART_WRITE_BYTE_1(8'h56);
       @(posedge Clk);
             
       // Check that the correct command was received
       if (Byte_RX == 8'h56)
-        $display("Test Passed - Correct Byte Received");
+        $display("Correct Byte Received");
       else
-        $display("Test Failed - Incorrect Byte Received");
+        $display("Incorrect Byte Received");
     $finish();
     end
     
-    initial
-    begin
-      // Send a command to the UART (exercise Rx)
-      @(posedge Clk);
-      UART_WRITE_BYTE_2(8'h48);
-      @(posedge Clk);
-            
-      // Check that the correct command was received
-      if (Byte_RX == 8'h48)
-        $display("Test Passed - Correct Byte Received");
-      else
-        $display("Test Failed - Incorrect Byte Received");
-    $finish();
-    end
+    
 endmodule
 
