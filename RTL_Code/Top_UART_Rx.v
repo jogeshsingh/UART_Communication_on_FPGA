@@ -35,9 +35,24 @@ module Top_UART_Rx(
  input i_clk , ///Fpga clk ///
  input i_Rx_serial , ///data is serially loaded from PC through this ////
  output o_RX_DV , ////DATA_VALID , output showing data is successfully received //
- output [7:0] o_RX ////output led's showing the received ASCII code from PC //
+ output [`DATA_WIDTH-1:0] o_RX, ////output led's showing the received ASCII code from PC //
+input i_TX_valid , 
+input [`DATA_WIDTH-1:0] data_TX ,  ///data to be transmitted from FPGA TO PC ///
+output  o_TX_Serial ,            ////serial output data to be streamed (Parallel to Serial)to the PC ///
+output o_TX_active   ,            ///output showing data transmission is active //
+output o_TX                       //output showing data is successfully transmitted ///
  );
-parameter CLK_PER_BIT  =  868 ;
+
+ UART_TX Transmitter(
+.i_clk(i_clk) , 
+.i_TX_valid(i_TX_valid) , 
+.i_TX_DATA(data_TX) ,  ///data to be transmitted from FPGA TO PC ///
+.o_TX_Serial(o_TX_Serial) ,            ////serial output data to be streamed (Parallel to Serial)to the PC ///
+.o_TX_active(o_TX_active)   ,            ///output showing data transmission is active //
+.o_TX(o_TX)                       //output showing data is successfully transmitted ///
+  );
+
+
 parameter IDLE         = 3'b000;
 parameter RX_START_BIT = 3'b001;
 parameter RX_DATA_BITS = 3'b010;
