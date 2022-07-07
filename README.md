@@ -20,7 +20,9 @@ UART(UNIVERSAL ASYNCHRONOUS RECEIVER TRANSMITTER )  (UART-PC-FPGA)
 
 ![IMG-20220702-WA0001](https://user-images.githubusercontent.com/98607828/177001319-80c1a7f6-bf03-488a-9b40-53e23cfaee78.jpg)
 
-https://youtu.be/nObsH4TaBLA
+ # Transmitter 
+ https://youtu.be/nObsH4TaBLA
+# Receiever
 https://youtu.be/FIwmlXadMqU
 # Simulation_Results
 ![UART](https://user-images.githubusercontent.com/98607828/176993509-622a32d6-ad4a-4c26-bf4b-ee6567fb56b9.jpg)
