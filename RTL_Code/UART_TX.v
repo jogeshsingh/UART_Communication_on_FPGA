@@ -106,8 +106,7 @@ TX_DATA_BITS : begin
                            p_STATE <= TX_DATA_BITS ;
                           end
                     else
-                           begin
-                        //  o_TX_Serial <= tx_BYTE[tx_cnt];  ///load the parallel data from FPGA Serially /                                       
+                           begin                                      
                           clk_count_TX <= 0;
                ///checking if the data transmitted is 8 bit or not ///    
                    if (tx_cnt <7)
