@@ -8,6 +8,7 @@ It is also called as Serial to Parallel and Parallel to Serial Communication . U
       4. 1 Start Bit (Active Low)
       5. 1 Stop Bit  (Active High)
    FPGA = NEXYS4 ARTIX-7 
+   Tera term (An Open source emulator was used for receiving the data from fpga & other way around).
       
 # Elaborated_Design
    # Receiver 
