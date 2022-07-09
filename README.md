@@ -1,11 +1,13 @@
 # UART_Communication_on_FPGA
 UART(UNIVERSAL ASYNCHRONOUS RECEIVER TRANSMITTER )  (UART-PC-FPGA)
+It is also used as Serial to parallel and Parallel to serial communication . UART has lot of applications for e.g, from Wireless communication modules
    # Specifications 
       1. FPGA CLOCK RATE = 100 MHZ
-      2. UART Communication Rate = 115200 bps (bits per second)
-      3. 1 Start Bit 
-      4. 1 Stop Bit
-      5. 
+      2. BAUD RATE = 115200 bps (bits per second)
+      3. Data Frame = 8 bits (0-7)
+      4. 1 Start Bit (Active Low)
+      5. 1 Stop Bit  (Active High)
+   FPGA = NEXYS4 ARTIX-7 
       
 # Elaborated_Design
    # Receiver 
