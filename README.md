@@ -1,6 +1,6 @@
 # UART_Communication_on_FPGA
 UART(UNIVERSAL ASYNCHRONOUS RECEIVER TRANSMITTER )  (UART-PC-FPGA)
-It is also used as Serial to parallel and Parallel to serial communication . UART has lot of applications for e.g, from Wireless communication modules
+It is also called as Serial to Parallel and Parallel to Serial Communication . UART has lot of applications for e.g,Wireless communication ,Bluetooth Modules , used as on board interface  in Microcontrollers , GPRS modules as so on in varieties of other communication systems too. 
    # Specifications 
       1. FPGA CLOCK RATE = 100 MHZ
       2. BAUD RATE = 115200 bps (bits per second)
