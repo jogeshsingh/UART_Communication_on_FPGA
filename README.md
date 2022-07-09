@@ -10,7 +10,6 @@ It is also called as Serial to Parallel and Parallel to Serial Communication . U
    FPGA : NEXYS4 ARTIX-7 
    
    
-   
       
 # Elaborated_Design
    # Receiver 
@@ -32,6 +31,7 @@ It is also called as Serial to Parallel and Parallel to Serial Communication . U
 
 ![IMG-20220702-WA0001](https://user-images.githubusercontent.com/98607828/177001319-80c1a7f6-bf03-488a-9b40-53e23cfaee78.jpg)
 
+# Video Demo of UART Implementation on FPGA & PC 
  # Transmitter 
  https://youtu.be/nObsH4TaBLA
 # Receiever
