@@ -34,7 +34,7 @@ It is also called as Serial to Parallel and Parallel to Serial Communication . U
 # Video Demo of UART Implementation on FPGA & PC 
  # Transmitter 
  https://youtu.be/nObsH4TaBLA
-# Receiever
+# Receiver
 https://youtu.be/FIwmlXadMqU
 # Simulation_Results
 ![UART](https://user-images.githubusercontent.com/98607828/176993509-622a32d6-ad4a-4c26-bf4b-ee6567fb56b9.jpg)
