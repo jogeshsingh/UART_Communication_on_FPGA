@@ -64,7 +64,7 @@ output [6:0] Seg_out
 .o_TX_active(o_TX_Active)   ,            ///output showing data transmission is active //
 .o_TX(o_TX)                       //output showing data is successfully transmitted ///
   );
-  */
+ 
  Top_UART_Rx DUT_RX(
  .i_clk(i_clk) , ///Fpga clk ///
  .i_Rx_serial(UART_TX_RX) , ///data is serially loaded from PC through this ////
